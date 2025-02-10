@@ -85,9 +85,9 @@ export default /*#__PURE__*/defineComponent({
     lineJoin: {
       type: String,
       validator: (value: string): boolean => {
-        return ['miter', 'round', 'bevel'].indexOf(value) !== -1
+        return ['round', 'miter',  'bevel'].indexOf(value) !== -1
       },
-      default: () => 'miter'
+      default: () => 'round'
     },
     lock: {
       type: Boolean,
