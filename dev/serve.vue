@@ -33,7 +33,7 @@ export default defineComponent({
       color: '#000000',
       strokeType: 'dash',
       lineCap: 'square',
-      lineJoin: 'miter',
+      lineJoin: 'round',
       backgroundColor: '#FFFFFF',
       backgroundImage: null,
       watermark: null,
